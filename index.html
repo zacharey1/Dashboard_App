@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+    <header>
+        <h1>WebApp&trade;</h1>
+        <!-- div below will contain bell icon svg -->
+        <div>
+            <svg></svg>
+            <!-- div below is container element for notifications -->
+            <div id="notifications">
+
+            </div>
+            <img>
+            <h3>Student Name</h3>
+        </div>
+    </header>
+
+    <nav>
+        <a>
+            <img>
+        </a>
+    </nav>
+
+    <main>
+        <div class="main-header"> <!-- row -->
+            <h2 class="headline">Dashboard</h2>
+            <div class="tab"></div>
+        </div>
+        <!-- alert banner  -->
+        <div class="alert" id="alert">
+            <!-- JS will insert alert here -->
+        </div>
+        <!-- line graph charts -->
+        <section class="traffic">
+            <div class="traffic header">
+                <h3>TRAFFIC</h3>
+                <ul class="traffic-nav">
+                    <li class="traffic-nav-link">Hourly</li>
+                    <li class="traffic-nav-link">Daily</li>
+                    <li class="traffic-nav-link">Weekly</li>
+                    <li class="traffic-nav-link">Monthly</li>
+                </ul>
+            </div>
+            <div class="widget-container-full">
+                <!-- element line graph will attach to -->
+                <canvas id="traffic-chart"></canvas>
+            </div>
+        </section>
+        <!-- bar graph -->
+        <section class="daily">
+            <h3>DAILY TRAFFIC</h3>
+
+            <div class="widget-container-half">
+                <!-- element bar graph will attach to -->
+                <canvas id="daily-chart"></canvas>
+            </div>
+        </section>
+        <!-- doughnut chart -->
+        <section class="mobile">
+            <h3>MOBILE USERS</h3>
+
+            <div class="widget-container-half">
+                <!-- element doughnut chart will attach to -->
+                <canvas id="doughnut-chart"></canvas>
+            </div>
+        </section>
+
+        <!-- LEFT OFF AT PG 6 OF STUDY GUIDE -->
+
+    </main>
+</body>
+</html>
