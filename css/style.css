@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
@@ -7,6 +13,9 @@
 
 header {
   grid-area: header;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 nav {
@@ -18,9 +27,45 @@ main {
   display: grid;
 }
 
+header img,
+.members img,
+.activity img {
+  border-radius: 50%;
+}
+
 .widget-container-full,
 .widget-container-half {
   width: 95vw;
+}
+
+.flex-header {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  flex: 1;
+}
+
+.flex-header h1 {
+  margin-right: auto;
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.flex-header svg {
+  height: 24px;
+  padding-right: 10px;
+  border-right: solid 1px black;
+}
+
+.flex-header img {
+  height: 32px;
+  padding-left: 10px;
+}
+
+.flex-header h3 {
+  padding: 0 10px;
+  font-size: 16px;
+  white-space: nowrap;
 }
 
 @media (min-width: 768px) {
