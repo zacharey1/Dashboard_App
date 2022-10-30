@@ -99,6 +99,13 @@ header img,
     border-right: 2px solid lightgray;
 }
 
+.traffic-nav {
+    text-align: center;
+}
+
+.traffic-nav li {
+    display: inline;
+}
 
 // Media Queries
 @media (min-width: 768px) {

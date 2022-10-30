@@ -96,6 +96,14 @@ header img,
   border-right: 2px solid lightgray;
 }
 
+.traffic-nav {
+  text-align: center;
+}
+
+.traffic-nav li {
+  display: inline;
+}
+
 @media (min-width: 768px) {
   .grid-container {
     grid-template-columns: 55px 1fr;
