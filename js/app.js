@@ -90,7 +90,7 @@ let dailyChart = new Chart(dailyCanvas, {
 
 //doughnut chart
 
-const mobileCanvas = document.getElementById('mobile-chart');
+const mobileCanvas = document.getElementById('doughnut-chart');
 
 const mobileData = {
     labels: ["Desktop", "Tablet", "Phones"],

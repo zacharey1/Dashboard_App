@@ -22,6 +22,10 @@ header {
     align-items: center;
 }
 
+body {
+    margin: 0 1.5em;
+}
+
 nav {
     grid-area: nav;
 }
@@ -29,6 +33,10 @@ nav {
 main {
     grid-area: main;
     display: grid;
+}
+
+img {
+    max-width: 100%;
 }
 
 header img,
@@ -99,12 +107,55 @@ header img,
     border-right: 2px solid lightgray;
 }
 
+
 .traffic-nav {
     text-align: center;
 }
 
 .traffic-nav li {
     display: inline;
+}
+
+.alert,
+.traffic,
+.daily,
+.mobile,
+.social,
+.members,
+.activity,
+.message,
+.settings {
+    margin: 1em 0;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 1em;
+}
+
+main h3 {
+    padding-bottom: 1.5em;
+}
+
+.alert {
+    padding: 0;
+}
+
+.alert,
+.settings {
+    border: none;
+}
+
+.alert-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    background-color: #4b32f3a4;
+    color: white;
+    border-radius: 5px;
+    height: 2.5em;
+}
+
+.social-image svg {
+    height: 60px;
 }
 
 // Media Queries
