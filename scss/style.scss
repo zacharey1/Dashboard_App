@@ -158,6 +158,39 @@ main h3 {
     height: 60px;
 }
 
+.on-off-switch input {
+    -webkit-appearance: none;
+    position: relative;
+    width: 80px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #ccc;
+    transition: background .3s;
+    outline: none;
+    cursor: pointer;
+}
+
+.on-off-switch input::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: rgb(255, 255, 255);
+    transition: left .3s;
+}
+
+.on-off-switch input:checked {
+    background-color: rgb(141, 221, 141);
+}
+
+.on-off-switch input:checked::after {
+    left: 80%;
+}
+
 // Media Queries
 @media (min-width: 768px) {
     .grid-container {
