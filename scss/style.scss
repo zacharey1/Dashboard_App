@@ -126,7 +126,7 @@ header img,
 .message,
 .settings {
     margin: 1em 0;
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 2px solid #ccc;
     padding-bottom: 1em;
 }
 
@@ -154,9 +154,6 @@ main h3 {
     height: 2.5em;
 }
 
-.social-image svg {
-    height: 60px;
-}
 
 .on-off-switch input {
     -webkit-appearance: none;
@@ -189,6 +186,46 @@ main h3 {
 
 .on-off-switch input:checked::after {
     left: 80%;
+}
+
+.social-container {
+    border: solid 2px #ccc;
+    background: #dfdfdfa4;
+    width: 93%;
+    display: flex;
+    padding: 1em;
+    margin-bottom: 1em;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.social-text {
+    margin-left: 1em;
+}
+
+.social-image {
+    height: 60px;
+    width: 60px;
+    background: rgb(173, 148, 255);
+    fill: white;
+    border-radius: 50%;
+    display: flex;
+}
+
+.social-image svg {
+    height: 30px;
+    margin: auto;
+}
+
+.members-container {
+    text-align: center;
+    width: 90%;
+    padding: 1em 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.widget-container {
+    display: flex;
 }
 
 // Media Queries
