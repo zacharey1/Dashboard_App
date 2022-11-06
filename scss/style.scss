@@ -45,6 +45,10 @@ header img,
     border-radius: 50%;
 }
 
+.width-wrapper {
+    width: 90%;
+}
+
 .widget-container-full,
 .widget-container-half {
     width: 95vw;
@@ -154,7 +158,6 @@ main h3 {
     height: 2.5em;
 }
 
-
 .on-off-switch input {
     -webkit-appearance: none;
     position: relative;
@@ -191,7 +194,6 @@ main h3 {
 .social-container {
     border: solid 2px #ccc;
     background: #dfdfdfa4;
-    width: 93%;
     display: flex;
     padding: 1em;
     margin-bottom: 1em;
@@ -219,14 +221,58 @@ main h3 {
 
 .members-container {
     text-align: center;
-    width: 90%;
     padding: 1em 0;
     border-bottom: 2px solid #ccc;
 }
 
 .widget-container {
     display: flex;
+    flex-wrap: wrap;
 }
+
+.form-field,
+.form-area,
+.button-primary {
+    flex-basis: 100%;
+    margin-bottom: 1.5em;
+}
+
+.form-field {
+    height: 3.5em;
+    width: 100%;
+}
+
+.form-area {
+    height: 10em;
+}
+
+.button-primary {
+    height: 3.5em;
+}
+
+.settings-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings-button {
+    display: flex;
+}
+
+#save {
+    flex: 1;
+    margin-right: 1.5em;
+}
+
+#cancel {
+    flex: 1;
+    height: 3.5em;
+}
+
+.settings-options {
+    margin-bottom: 1.5em;
+}
+
 
 // Media Queries
 @media (min-width: 768px) {
