@@ -18,10 +18,6 @@ header {
   align-items: center;
 }
 
-body {
-  margin: 0 1.5em;
-}
-
 nav {
   grid-area: nav;
 }
@@ -39,10 +35,6 @@ header img,
 .members img,
 .activity img {
   border-radius: 50%;
-}
-
-.width-wrapper {
-  width: 92%;
 }
 
 .flex-header {
@@ -123,15 +115,13 @@ header img,
 .settings {
   margin: 1em 0;
   border-bottom: 2px solid #ccc;
-  padding-bottom: 1em;
+  padding: 0 1.5em 1em;
+  min-width: 320px;
+  width: 100vw;
 }
 
 main h3 {
   padding-bottom: 1.5em;
-}
-
-.alert {
-  padding: 0;
 }
 
 .alert,
