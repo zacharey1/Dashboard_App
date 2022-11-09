@@ -16,10 +16,13 @@ header {
   height: 70px;
   display: flex;
   align-items: center;
+  background-color: #9999e6;
+  color: white;
 }
 
 nav {
   grid-area: nav;
+  background-color: #6f6fdc;
 }
 
 main {
@@ -83,7 +86,6 @@ header img,
   background-color: rgb(247, 247, 247);
   height: 60px;
   border-bottom: 2px solid lightgray;
-  width: 100vw;
 }
 
 .headline {
@@ -117,7 +119,6 @@ header img,
   border-bottom: 2px solid #ccc;
   padding: 0 1.5em 1em;
   min-width: 320px;
-  width: 100vw;
 }
 
 main h3 {
@@ -134,7 +135,7 @@ main h3 {
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5em;
-  background-color: rgba(75, 50, 243, 0.6431372549);
+  background-color: #9999e6;
   color: white;
   border-radius: 5px;
   height: 2.5em;
@@ -207,7 +208,7 @@ main h3 {
 .social-image {
   height: 60px;
   width: 60px;
-  background: rgb(173, 148, 255);
+  background: #9999e6;
   fill: white;
   border-radius: 50%;
   display: flex;
@@ -280,6 +281,12 @@ main h3 {
   main {
     grid-template-columns: 50%;
   }
+  .main-header {
+    grid-column: 1/span 2;
+  }
+  .alert {
+    grid-column: 1/span 2;
+  }
   .mobile {
     grid-column: 2/span 1;
   }
@@ -303,9 +310,6 @@ main h3 {
   .nav-container {
     flex-direction: column;
     justify-content: start;
-  }
-  nav {
-    background-color: rgb(97, 58, 254);
   }
 }
 @media (min-width: 1024px) {
