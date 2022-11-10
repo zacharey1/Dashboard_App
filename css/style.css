@@ -294,11 +294,11 @@ main h3 {
 .social,
 .members,
 .activity,
-.message {
+.message,
+.settings {
     grid-column: 1/span 2;
   }
-  .daily,
-.settings {
+  .daily {
     grid-column: 1/span 1;
   }
   .widget-container-full {
@@ -310,6 +310,14 @@ main h3 {
   .nav-container {
     flex-direction: column;
     justify-content: start;
+  }
+  .social-box {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
+    justify-content: space-between;
+  }
+  .settings-options {
+    width: 50%;
   }
 }
 @media (min-width: 1024px) {
