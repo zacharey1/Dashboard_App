@@ -315,6 +315,10 @@ main h3 {
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
     justify-content: space-between;
+    gap: 10px;
+  }
+  .social-container {
+    flex-grow: 1;
   }
   .settings-options {
     width: 50%;
