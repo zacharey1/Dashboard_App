@@ -43,6 +43,10 @@ header img,
     border-radius: 50%;
 }
 
+.bell-icon {
+    fill: white;
+}
+
 .flex-header {
     display: flex;
     height: 60px;
@@ -59,7 +63,7 @@ header img,
 .flex-header svg {
     height: 24px;
     padding-right: 10px;
-    border-right: solid 1px black;
+    border-right: solid 1px lightgray;
 }
 .flex-header img {
     height: 32px;
@@ -79,9 +83,10 @@ header img,
     justify-content: center;
 }
 
-.nav-container img {
+.nav-container svg {
     height: 32px;
     padding: 0 12px;
+    fill: white;
 }
 
 .main-header {
@@ -326,6 +331,10 @@ main h3 {
     .nav-container {
         flex-direction: column;
         justify-content: start;
+    }
+
+    .nav-container a {
+        padding-top: 12px;
     }
 
     .social-box {
