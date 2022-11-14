@@ -314,6 +314,11 @@ main h3 {
   .daily {
     grid-column: 1/span 1;
   }
+  .traffic-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .mobile,
 .activity,
 .settings {
