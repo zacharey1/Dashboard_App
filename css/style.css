@@ -179,7 +179,7 @@ main h3 {
 }
 
 .on-off-switch input:checked {
-  background-color: rgb(141, 221, 141);
+  background-color: #9999e6;
 }
 
 .on-off-switch input:checked::after {
@@ -191,6 +191,7 @@ main h3 {
   position: absolute;
   right: 0;
   margin: 10px;
+  color: white;
 }
 
 .on-off-switch input:checked::before {
@@ -256,11 +257,20 @@ main h3 {
 }
 
 .form-area {
-  height: 10em;
+  height: 8em;
 }
 
 .button-primary {
   height: 3.5em;
+  background-color: #9999e6;
+  border-radius: 5px;
+  color: white;
+}
+
+.button-disabled {
+  background-color: #ccc;
+  color: white;
+  border-radius: 5px;
 }
 
 .settings-options {
@@ -360,6 +370,9 @@ main h3 {
   .members-container p {
     margin-left: auto;
     margin-right: 1.2em;
+  }
+  #timezone {
+    margin-top: 18px;
   }
   .settings-options {
     width: 50%;
