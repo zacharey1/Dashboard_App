@@ -54,6 +54,11 @@ header img,
 
 .bell-icon {
   fill: white;
+  transition: ease-out 0.3s;
+}
+
+.bell-icon:hover {
+  fill: greenyellow;
 }
 
 .notifications {
