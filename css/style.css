@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+canvas {
+  max-width: 100%;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
@@ -40,8 +44,26 @@ header img,
   border-radius: 50%;
 }
 
+#notifications {
+  height: 40px;
+  width: 40px;
+  border-right: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+
 .bell-icon {
   fill: white;
+}
+
+.notifications {
+  background: greenyellow;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 10px;
+  right: 5px;
 }
 
 .flex-header {
@@ -60,7 +82,8 @@ header img,
 .flex-header svg {
   height: 24px;
   padding-right: 10px;
-  border-right: solid 1px lightgray;
+  position: relative;
+  left: 5px;
 }
 
 .flex-header img {
@@ -336,12 +359,6 @@ main h3 {
   }
   #daily-chart {
     padding-right: 1.5em;
-  }
-  .widget-container-full {
-    width: 90vw;
-  }
-  .widget-container-half {
-    width: 45vw;
   }
   .nav-container {
     flex-direction: column;
