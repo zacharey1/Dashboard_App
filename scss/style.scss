@@ -85,6 +85,8 @@ header img,
     margin-right: auto;
     padding-left: 10px;
     font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
 }
 
 .flex-header svg {
@@ -102,6 +104,8 @@ header img,
     padding: 0 10px;
     font-size: 16px;
     white-space: nowrap;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
 }
 
 .nav-container {
@@ -131,11 +135,14 @@ header img,
     padding: 15px 12px;
     font-size: 18px;
     border-right: 2px solid lightgray;
+    font-family: 'Noto Sans', sans-serif;
+    weight: 400;
 }
 
 
 .traffic-nav {
     text-align: center;
+    font-family: 'Nodo Sans', sans-serif;
 }
 
 .traffic-nav li {
@@ -159,10 +166,12 @@ header img,
 main h3 {
     padding-bottom: 1.5em;
     padding-top: 1.5em;
+    font-family: 'Nodo Sans', sans-serif;
 }
 
 .alert {
     margin-top: 1.5em;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .alert,
@@ -260,10 +269,24 @@ main h3 {
     margin: auto;
 }
 
+.social-name {
+    font-family: 'Nodo Sans', sans-serif;
+    color: #9999e6;
+}
+
+.social-number {
+    font-family: 'Nodo Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: rgb(153, 153, 153);
+}
+
 .members-container {
     text-align: center;
     padding: 1em 0;
     border-bottom: 2px solid #ccc;
+    font-family: 'Nodo Sans', sans-serif;
+    font-weight: 300;
 }
 
 .members-container img {
