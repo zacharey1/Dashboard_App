@@ -360,7 +360,7 @@ textarea::placeholder {
 }
 
 .settings-options {
-  margin-bottom: 1.5em;
+  margin-bottom: 37px;
 }
 
 @media (min-width: 768px) {
