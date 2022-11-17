@@ -299,6 +299,12 @@ main h3 {
     flex-wrap: wrap;
 }
 
+input::placeholder,
+textarea::placeholder {
+    font-family: 'Nodo Sans', sans-serif;
+    font-size: 13px;
+}
+
 .form-field,
 .form-area,
 .button-primary {
@@ -309,10 +315,17 @@ main h3 {
 .form-field {
     height: 3.5em;
     width: 100%;
+    font-family: 'Nodo Sans', sans-serif;
 }
 
 .form-area {
     height: 8em;
+    font-family: 'Nodo Sans', sans-serif;
+}
+
+#userField,
+#messageField {
+    padding: 5px;
 }
 
 .button-primary {
@@ -331,6 +344,8 @@ main h3 {
 .settings-options {
     display: flex;
     justify-content: space-between;
+    font-family: 'Nodo Sans', sans-serif;
+    font-weight: 300;
 }
 
 .settings-button {
