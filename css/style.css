@@ -144,6 +144,7 @@ header img,
 
 .traffic-nav li {
   display: inline;
+  padding-left: 1em;
 }
 
 .alert,
