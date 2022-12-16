@@ -276,7 +276,7 @@ main h3 {
 .social-number {
   font-family: "Nodo Sans", sans-serif;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 32px;
   color: rgb(119, 118, 118);
 }
 
@@ -431,7 +431,12 @@ textarea::placeholder {
   }
   .members-container p {
     margin-left: auto;
-    margin-right: 1.2em;
+  }
+  .activity .members-container::after {
+    content: ">";
+    margin-left: auto;
+    font-family: "Nodo Sans", sans-serif;
+    font-size: 24px;
   }
   #timezone {
     margin-top: 18px;
